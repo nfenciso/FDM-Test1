@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The queryset object:</p>
+
+{{ mytodos }}
+
+<p>Loop through the items:</p>
+
+<table border='1'>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+  </tr>
+  {% for x in mytodos %}
+    <tr>
+      <td>{{ x.task }}</td>
+      <td>{{ x.description }}</td>
+    </tr>
+  {% endfor %}
+</table>
+
+</body>
+</html>    
