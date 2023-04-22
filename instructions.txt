@@ -1,3 +1,5 @@
+This file assumes that MongoDB and Flutter are already set up.
+
 In the repo directory, run:
 py -m venv venv
 venv\Scripts\activate.bat
