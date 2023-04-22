@@ -1,3 +1,18 @@
+In the repo directory, run:
 py -m venv venv
 venv\Scripts\activate.bat
 python -m pip install -r requirements.txt
+
+In the stals directory, run:
+python manage.py makemigrations
+python manage.py migrate
+
+In the flutter_stals directory, run:
+flutter pub get
+(open emulator)
+flutter run
+
+In the app:
+(Note that there is no todo yet)
+Click the + button to add a random task and description
+Click 'View All Todos'
