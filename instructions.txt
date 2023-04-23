@@ -19,3 +19,6 @@ In the app:
 (Note that there is no todo yet)
 Click the + button to add a random task and description
 Click 'View All Todos'
+
+When running the app, if the error 'Connection refused' is encountered, run in a terminal:
+adb reverse tcp:8000 tcp:8000
